@@ -85,7 +85,7 @@ module.exports = {
 		'no-dupe-class-members': 'off',
 		'import/no-extraneous-dependencies': ['error', { 'devDependencies': ['**/*.test.ts', '**/webpack.*.ts'] }],
 		'no-mixed-operators': 'off',
-		'no-param-reassign': 'off',
+		'no-param-reassign': 'error',
 		'no-plusplus': 'off',
 		'no-prototype-builtins': 'off',
 		'no-restricted-globals': 'off',
