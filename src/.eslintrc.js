@@ -9,6 +9,7 @@ module.exports = {
 		'plugin:import/typescript',
 	],
 	rules: {
+		'react/react-in-jsx-scope': 'off',
 		'@typescript-eslint/ban-ts-comment': 'warn',
 		'@typescript-eslint/ban-types': ['error', {
 			types: {
