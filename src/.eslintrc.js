@@ -9,6 +9,7 @@ module.exports = {
 		'plugin:import/typescript',
 	],
 	rules: {
+		'@typescript-eslint/member-delimiter-style': 'error',
 		'react/react-in-jsx-scope': 'off',
 		'@typescript-eslint/ban-ts-comment': 'warn',
 		'@typescript-eslint/ban-types': ['error', {
